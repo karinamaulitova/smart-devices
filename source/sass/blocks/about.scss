@@ -1,0 +1,48 @@
+@import "../variables";
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 320px;
+  margin: 0 auto;
+}
+
+.about__image {
+  display: none;
+}
+
+.about__heading {
+  ont-family: Roboto Condensed;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 39px;
+  text-align: left;
+}
+
+.about__text {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.about__link {
+  display: inline-block;
+
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $button-color;
+  text-decoration: none;
+
+  border: 1px solid $button-color;
+  border-radius: 5px;
+
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+

@@ -1,0 +1,9 @@
+@import "../variables";
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+
+  list-style: none;
+  padding: 0;
+}
