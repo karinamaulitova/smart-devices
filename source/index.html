@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <title>Smart device</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<header class="page-header">
+    <a class="page-header__logo"></a>
+    <nav class="page-header__nav main-nav">
+        <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+                <button type="button" class="site-list__button site-list__button--burger"></button>
+            </li>
+            <li class="site-list__item">
+                <a href="mailto:info@sd.ru" class="site-list__button site-list__button--email">info@sd.ru</a>
+            </li>
+            <li class="site-list__item">
+                <a href="tel:84950005252" class="site-list__button site-list__button--tel">+7 (495) 000 52 52</a>
+            </li>
+            <li class="site-list__item site-list__item--desktop">
+                <button type="button" class="site-list__button site-list__button--call">Заказать звонок</button>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="page-main">
+    <h1 class="visually-hidden">Smart Device - изготовление и доставка печатных плат</h1>
+    <section class="main-banner">
+        <h2 class="main-banner__heading">Печатные платы</h2>
+        <p class="main-banner__text"> &mdash; производство и монтаж, поставка комплектующих, блоков и модулей</p>
+        <a class="main-banner__button main-banner__button--mobile" href="#">Бесплатная консультация</a>
+        <a class="main-banner__button main-banner__button--desktop" href="#">Получить бесплатную консультацию</a>
+    </section>
+    <section class="features">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <ul class="features__list features-list">
+            <li class="features-list__item feature-item">
+                <h3 class="feature-item__heading">Оперативные сроки</h3>
+                <p class="feature-item__text">Усовершенствованная логистическая система позволяет нам просчитывать
+                    стоимость, производить и доставлять заказы плат и комплектующих в самые короткие сроки</p>
+            </li>
+            <li class="features-list__item feature-item">
+                <h3 class="feature-item__heading">Крупные поставщики</h3>
+                <p class="feature-item__text">Нашими поставщиками являются такие крупные мировые компании как: OSRAM,
+                    CREE, HOLGLITRONIC, REFOND. Сотрудничество с такими компаниями обеспичивает хорошее качество нашей
+                    продукции.</p>
+            </li>
+            <li class="features-list__item feature-item">
+                <h3 class="feature-item__heading">Полная конфиденциальность</h3>
+                <p class="feature-item__text">По желанию клиента мы обеспечиваем полную конфеденциальность.</p>
+            </li>
+            <li class="features-list__item feature-item">
+                <h3 class="feature-item__heading">Персонализация стоимости</h3>
+                <p class="feature-item__text">Мы подбираем определенную фабрику, поставщиков, вид доставки, чтобы
+                    установить ту цену, которая Вас устраивает.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="about">
+        <img src="">
+        <h3 class="about__heading">О компании</h3>
+        <p class="about__text">Мы поставляем электронные комплектующие, производим печатные платы и предоставляем
+            мировые технологии с 1997 года. Выполняем срочные заказы и пилотные образцы до 10 дней. </p>
+        <p class="about__text">Наши поставщики - мировые производители электронных компонентов: OSRAM, CREE,
+            HOLGLITRONIC, REFOND. Печатные платы и комплектующие Service Devices применяются на предприятиях Российских
+            Железных Дорог..</p>
+        <a class="about__link" href="#">Подробнее</a>
+    </section>
+</main>
+<section class="modal">
+    <h3 class="modal__heading">Закажите звонок</h3>
+    <p class="modal__text">Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
+    <form class="modal__form form" action="#" method="get">
+        <input type="text" id="name" name="name" class="form__input form__input--name" placeholder="Имя">
+        <input type="text" id="surname" name="surname" class="form__input form__input--surname"
+               placeholder="Фамилия">
+        <textarea class="form__input form__input--textarea" name="comment" id="comment" rows="3"
+                  placeholder="Ваш вопрос"></textarea>
+        <button type="submit" class="form__button">Отправить</button>
+        <input class="visually-hidden form__checkbox" type="checkbox" id="privacy" name="privacy">
+        <label class="form__checkbox-label" for="privacy">Я согласен на обработку персональных данных</label>
+    </form>
+    <button type="button" class="modal__close-button">Закрыть окно</button>
+</section>
+</body>
+</html>

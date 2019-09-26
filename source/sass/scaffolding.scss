@@ -1,0 +1,50 @@
+@import "variables";
+
+@font-face {
+  font-weight: normal;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Bold.ttf");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "PT Mono";
+  font-style: normal;
+  src: url("../fonts/PTMono-Regular.ttf");
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Mono", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  text-align: center;
+  color: $text-color;
+
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
