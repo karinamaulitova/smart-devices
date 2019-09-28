@@ -1,9 +1,13 @@
+@import "../variables";
+
 .page-header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   width: 320px;
+  box-sizing: border-box;
+  padding: 4px 14px 0 17px;
   margin: 0 auto;
 }
 
@@ -13,4 +17,22 @@
   top: 0;
 
   width: 100%;
+  box-sizing: border-box;
+
+  z-index: 1;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header__container {
+    width: $tablet-width;
+    margin: 0 auto;
+    padding: 14px 5px 0 25px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header__container {
+    width: $desktop-width;
+    margin: 0 auto;
+  }
 }

@@ -1,6 +1,26 @@
+@import "../variables";
+
+.features {
+  margin-top: 37px;
+}
+
 .features__container {
   display: flex;
 
   width: 320px;
   margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .features__container {
+    width: $tablet-width;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .features__container {
+    width: $desktop-width;
+    margin: 0 auto;
+  }
 }

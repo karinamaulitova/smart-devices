@@ -21,6 +21,13 @@
   src: url("../fonts/PTMono-Regular.ttf");
 }
 
+@font-face {
+  font-weight: 500;
+  font-family: "Roboto";
+  font-style: normal;
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+
 body {
   min-width: 320px;
   margin: 0;
@@ -33,7 +40,7 @@ body {
   text-align: center;
   color: $text-color;
 
-  background-color: $background-color;
+  background-color: $white-color;
 }
 
 .visually-hidden {

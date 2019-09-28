@@ -1,0 +1,85 @@
+@import "../variables";
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $white-color;
+
+  border: none;
+
+  padding: 14px 24px;
+  margin-bottom: 30px;
+
+  &::placeholder {
+    color: $white-color;
+  }
+}
+
+.form__button {
+  background-color: transparent;
+
+  border: 1px solid $white-color;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: $white-color;
+
+  padding: 15px;
+  margin-bottom: 35px;
+}
+
+.form__checkbox-label {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: relative;
+  display: block;
+
+  color: $white-color;
+  opacity: 0.8;
+
+
+  max-width: 350px;
+
+  margin-left: 65px;
+
+  &::before {
+    content: "";
+    position: absolute;
+
+    top: 0;
+    left: -36px;
+
+    width: 16px;
+    height: 16px;
+
+    border: 1px solid $white-color;
+    box-sizing: border-box;
+  }
+}
+
+.form__checkbox:checked + .form__checkbox-label::after {
+  content: "";
+
+  position: absolute;
+  top: 6px;
+  left: -32px;
+
+  width: 8px;
+  height: 5px;
+
+  background: url("../../img/Vector.svg") center no-repeat;
+}
