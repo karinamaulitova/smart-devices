@@ -9,12 +9,18 @@
 
   width: 320px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 @media (min-width: $tablet-width) {
   .features__container {
     width: $tablet-width;
     margin: 0 auto;
+    padding-left: 10px;
+  }
+
+  .features {
+    margin-top: 54px;
   }
 }
 
@@ -22,5 +28,10 @@
   .features__container {
     width: $desktop-width;
     margin: 0 auto;
+    padding-left: 80px;
+  }
+
+  .features {
+    margin-top: 109px;
   }
 }

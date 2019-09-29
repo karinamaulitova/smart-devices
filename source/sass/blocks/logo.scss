@@ -4,22 +4,15 @@
   display: none;
 }
 
-.logo__image-tablet {
-  display: none;
-}
-
 @media (min-width: $tablet-width) {
   .logo {
     display: flex;
     align-items: center;
   }
 
-  .logo__image-mobile {
-   display: none;
-  }
-
-  .logo__image-tablet {
-    display: block;
+  .logo__image {
+   width: 52px;
+    height: 52px;
   }
 
   .logo__text {

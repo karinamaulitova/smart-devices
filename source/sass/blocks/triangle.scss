@@ -15,3 +15,10 @@
   left: 146px;
   position: relative;
 }
+
+@media (min-width: $tablet-width) {
+  .triangles__1 {
+    top: 927px;
+    left: 359px;
+  }
+}

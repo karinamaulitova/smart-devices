@@ -13,6 +13,32 @@
   box-sizing: border-box;
 }
 
+.about__year-wrapper{
+  display: none;
+  position: relative;
+  flex: 0 0 190px;
+}
+
+.about__year {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 178.324px;
+  line-height: 251px;
+  background: url("../../img/year-background.png") no-repeat;
+  background-clip: text;
+  background-size: 360px;
+  background-position-y: 56px;
+  color: transparent;
+
+  position: absolute;
+  top: 54px;
+  left: -99px;
+
+  transform: rotate(-90deg);
+
+}
+
 .about__wrapper {
   display: flex;
   flex-direction: column;
@@ -71,12 +97,17 @@
     margin: 0 auto;
   }
 
+  .about {
+    margin-top: 56px;
+  }
+
   .about__image {
     display: block;
   }
 
   .about__wrapper {
-    margin-left: 20px;
+    margin-left: 6px;
+    padding-right: 0;
   }
 
   .about__heading {
@@ -84,6 +115,22 @@
     line-height: 45px;
   }
 
+  .about__year-wrapper {
+    display: block;
+  }
+
+  .about__text--1 {
+    margin-bottom: 0;
+    margin-top: 25px;
+  }
+
+  .about__text {
+    min-width: 530px;
+  }
+
+  .about__link {
+    margin-top: 42px;
+  }
 }
 
 @media (min-width: $desktop-width) {

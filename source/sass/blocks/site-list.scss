@@ -89,6 +89,10 @@
     color: $white-color;
   }
 
+  .site-list__item-text {
+    margin-left: 18px;
+  }
+
   .site-list__button-call {
     font-family: Roboto Condensed;
     font-weight: bold;
@@ -100,5 +104,25 @@
     color: $white-color;
     background-color: transparent;
     border: none;
+
+    margin-left: 72px;
+  }
+
+  .site-list__button--tel svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .site-list__button--email svg {
+    width: 19px;
+    height: 14px;
+  }
+
+  .site-list__item:nth-of-type(3) {
+    margin-left: 87px;
+  }
+
+  .site-list__button--burger {
+    right: 400px;
   }
 }
