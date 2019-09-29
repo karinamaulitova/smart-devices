@@ -67,6 +67,10 @@
   padding-left: 2px;
 }
 
+.about__text-desktop {
+  display: none;
+}
+
 .about__text--1 {
   margin-bottom: 20px;
 }
@@ -137,10 +141,33 @@
   .about__container {
     width: $desktop-width;
     margin: 0 auto;
+    padding: 0 109px;
+  }
+
+  .about {
+    margin-top: 107px;
   }
 
   .about__heading {
     font-size: 36px;
     line-height: 51px;
+  }
+
+  .about__text--1 {
+    margin-top: 20px;
+  }
+
+  .about__text-desktop {
+    display: block;
+  }
+
+  .about__text-dots {
+    display: none;
+  }
+
+  .about__year {
+    font-size: 156.248px;
+    top: 39px;
+    left: -80px;
   }
 }

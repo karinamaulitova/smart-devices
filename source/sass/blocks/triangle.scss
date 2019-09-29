@@ -16,9 +16,47 @@
   position: relative;
 }
 
+.triangles__2,
+.triangles__3,
+.triangles__4 {
+  display: none;
+}
+
 @media (min-width: $tablet-width) {
   .triangles__1 {
     top: 927px;
     left: 359px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .triangles__2,
+  .triangles__3,
+  .triangles__4 {
+    display: block;
+    position: absolute;
+  }
+
+  .triangles__1 {
+    top: 1178px;
+    left: 131px;
+  }
+
+  .triangles__2 {
+    top: 1473px;
+    left: -203px;
+    transform: rotate(180deg);
+  }
+
+  .triangles__3 {
+    top: 1341px;
+    right: 3px;
+  }
+
+  .triangles__4 {
+    transform: rotate(180deg);
+    top: 919px;
+    left: 202px;
+
   }
 }

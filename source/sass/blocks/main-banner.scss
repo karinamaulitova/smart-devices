@@ -39,6 +39,31 @@
   flex-direction: column;
 }
 
+.main-banner__dot {
+  position: absolute;
+
+  width: 8px;
+  height: 8px;
+  background-color: $white-color;
+  border-radius: 50%;
+}
+
+.main-banner__dot--1 {
+  top: 70px;
+  left: 207px;
+}
+
+.main-banner__dot--2 {
+  top: 429px;
+  left: 290px;
+}
+
+.main-banner__dot--3,
+.main-banner__dot--4,
+.main-banner__dot--5 {
+  display: none;
+}
+
 .main-banner__heading {
   font-family: Roboto Condensed;
   font-weight: bold;
@@ -126,6 +151,33 @@
     padding: 190px 87px 0;
   }
 
+  .main-banner__dot--3,
+  .main-banner__dot--4 {
+    display: block;
+  }
+
+  .main-banner__dot--1 {
+    left: auto;
+    right: 245px;
+    top: 82px;
+  }
+
+  .main-banner__dot--2 {
+    top: 240px;
+    left: auto;
+    right: 286px;
+  }
+
+  .main-banner__dot--3 {
+    top: 457px;
+    right: 158px;
+  }
+
+  .main-banner__dot--4 {
+    top: 457px;
+    right: 28px;
+  }
+
   .main-banner__heading {
     font-size: 60px;
     line-height: 70px;
@@ -190,5 +242,37 @@
     height: 515px;
     top: 259px;
     right: 158px;
+  }
+
+  .main-banner__dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .main-banner__dot--1 {
+    right: 789px;
+    top: 272px;
+  }
+
+  .main-banner__dot--2 {
+    top: 471px;
+    right: 840px;
+  }
+
+  .main-banner__dot--3 {
+    top: 750px;
+    right: 678px;
+  }
+
+  .main-banner__dot--4 {
+    top: 750px;
+    right: 513px;
+  }
+
+  .main-banner__dot--5 {
+    display: block;
+
+    top: 273px;
+    right: 238px;
   }
 }
