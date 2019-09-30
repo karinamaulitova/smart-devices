@@ -14,6 +14,12 @@
   margin: 0 auto;
 }
 
+.main-banner__image-container{
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+}
+
 .main-banner__image-wrapper {
   overflow: hidden;
   position: absolute;
@@ -136,6 +142,10 @@
     flex-direction: row;
   }
 
+  .main-banner__image-container{
+    width: $tablet-width;
+  }
+
   .main-banner__button {
     display: none;
   }
@@ -206,6 +216,10 @@
     margin: 0 auto;
   }
 
+  .main-banner__image-container {
+    width: $desktop-width;
+  }
+
   .main-banner__wrapper {
     padding: 316px 0 0;
   }
@@ -241,7 +255,7 @@
   .main-banner__image {
     height: 515px;
     top: 259px;
-    right: 158px;
+    right: -92px;
   }
 
   .main-banner__dot {
@@ -250,29 +264,29 @@
   }
 
   .main-banner__dot--1 {
-    right: 789px;
+    right: 539px;
     top: 272px;
   }
 
   .main-banner__dot--2 {
     top: 471px;
-    right: 840px;
+    right: 590px;
   }
 
   .main-banner__dot--3 {
     top: 750px;
-    right: 678px;
+    right: 428px;
   }
 
   .main-banner__dot--4 {
     top: 750px;
-    right: 513px;
+    right: 263px;
   }
 
   .main-banner__dot--5 {
     display: block;
 
     top: 273px;
-    right: 238px;
+    right: -12px;
   }
 }
