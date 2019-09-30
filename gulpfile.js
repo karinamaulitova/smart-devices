@@ -40,6 +40,7 @@ gulp.task("server", function () {
 
     gulp.watch("source/sass/**/*.{scss,sass}", gulp.series("css", "refresh"));
     gulp.watch("source/**/*.html", gulp.series("html", "refresh"));
+    gulp.watch("source/js/**/*.js", gulp.series("copy", "refresh"));
 });
 
 gulp.task("sprite", function () {

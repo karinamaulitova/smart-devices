@@ -3,6 +3,8 @@
 .form {
   display: flex;
   flex-direction: column;
+
+  margin-top: 32px;
 }
 
 .form__input {
@@ -11,8 +13,8 @@
 
   border: none;
 
-  padding: 14px 24px;
-  margin-bottom: 30px;
+  padding: 14px 24px 16px;
+  margin-bottom: 34px;
 
   &::placeholder {
     color: $white-color;
@@ -37,7 +39,7 @@
   color: $white-color;
 
   padding: 15px;
-  margin-bottom: 35px;
+  margin-bottom: 29px;
 }
 
 .form__checkbox-label {
@@ -54,14 +56,14 @@
 
   max-width: 350px;
 
-  margin-left: 65px;
+  margin-left: 49px;
 
   &::before {
     content: "";
     position: absolute;
 
-    top: 0;
-    left: -36px;
+    top: 2px;
+    left: -50px;
 
     width: 16px;
     height: 16px;
@@ -75,11 +77,12 @@
   content: "";
 
   position: absolute;
-  top: 6px;
-  left: -32px;
+  top: 7px;
+  left: -46px;
 
   width: 8px;
   height: 5px;
 
   background: url("../../img/Vector.svg") center no-repeat;
+  background-size: cover;
 }
